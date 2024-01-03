@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3c6371;
+    text-align: center;
+}
+h1{
+    color:#d9d9d9 ;
+}
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1.5vmin;
+    align-items: center;
+}
+
+.boxes {
+    height: 18vmin;
+    width: 18vmin;
+border-radius: 1.5rem;
+border: none;
+padding: 0.5rem;
+cursor: pointer;
+font-size: 8vmin;
+color:#353535 ;
+box-shadow: 0 0 1rem #000000b0;
+background-color: #d9d9d9;
+}
+
+.reset{
+    height: 8vmin;
+    width: 18vmin;
+    background-color:#d9d9d9;
+    border: none;
+    border-radius: 1.5vmin;
+    font-size: 2.5vmin;
+}
+.reset:hover{
+    background-color: #353535;
+    color: #d9d9d9;
+    text-align: center;
+}
+.new-btn{
+    height: 8vmin;
+    width: 18vmin;
+    background-color:#d9d9d9;
+    border: none;
+    border-radius: 1.5vmin;
+    font-size: 2.5vmin;
+}
+.new-btn:hover{
+    background-color: #353535;
+    color: #d9d9d9;
+    text-align: center;
+}
+.win{
+    color:#d9d9d9 ;
+    font-size: 8vmin;
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    height: 100vmin;
+}
+.hide{
+    display: none;
+}
